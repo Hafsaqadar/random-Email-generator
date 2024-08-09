@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    text-align: center;
+    margin-top: 170px;
+}
+
+
+
+h1{
+    font-weight: bold;
+   font-size: 40px;
+}
+
+
+
+p{
+   padding-top: 45px;
+   
+   
+}
+
+button{
+    margin-top: 50px;
+    padding: 15px 35px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+   
+}
+
+button:focus{
+    opacity: 0.9;
+    outline: none; 
+}
+
+#email-container{
+    display: none;
+    background-color: purple; 
+    width: 400px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 5px;
+    color: white;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+}
